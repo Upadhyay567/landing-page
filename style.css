@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgb(110, 110, 215);
+    color: white;
+    width: 100%;
+
+}
+
+
+header .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.logo {
+    margin-right: auto;
+    padding: 10px;
+    padding-left: 35px;
+}
+
+.logo img {
+    max-width: 160px;
+}
+
+.navbar ul {
+    list-style-type: none;
+
+}
+
+.navbar .uldiv {
+    padding-right: 15px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    padding: 6px 18px;
+    /* line-height: 2; */
+
+}
+
+.navbar li {
+    float: left;
+}
+
+.uldiv a:hover {
+    background-color: rgb(11, 23, 23);
+    border-radius: 4px 18px;
+    transition: 0.5s;
+}
+
+
+
+
+.backimage {
+    width: 100%;
+    height: 460px;
+    background-image: url('pic/dark.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.backimage .heading-title {
+    padding-block-start: 147px;
+    padding-left: 106px;
+
+}
+
+.text-format {
+    width: 100%;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+}
+
+.backimage .company-name {
+    font-size: 4.7rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    top: 28px;
+    left: 106px;
+    text-shadow: 12 5px 10px rgb(11, 23, 23);
+    position: relative;
+}
+
+
+
+.about .about-title {
+    text-align: center;
+    background-color: #fff;
+    color: #151111;
+    text-shadow: 0 5px 10px rgb(123, 131, 131);
+    font-size: 19px;
+    padding: 8px;
+    font-family: "Archivo", sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.about .about-title:hover {
+    text-decoration: underline;
+}
+
+.about-section {
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(470px, 1fr));
+    gap: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.about-company {
+    padding: 15px;
+}
+
+.about-company h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.about-company p {
+    color: rgb(53, 56, 78);
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-company:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
+    transition: all .3s ease-in;
+}
+
+
+.arrul li {
+    display: flex;
+    position: relative;
+    right: -35%;
+    gap: 12px;
+    margin: 6px;
+}
+
+.arrul ul li {
+    list-style: none;
+    color: rgb(53, 56, 78);
+    font-family: "Archivo", sans-serif;
+
+}
+
+.reason-choose p {
+    color: rgb(53, 56, 78);
+    /* font-family: "Archivo", sans-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin: 10px;
+    text-align: center;
+}
+
+.middle-box .box {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 1.2rem;
+    padding: 5px;
+
+}
+
+.iconsize a i {
+    font-size: 30px;
+    padding: 15px;
+
+}
+
+ .services {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.service-title {
+    text-align: center;
+    background-color: rgb(110, 110, 215);
+    color: #fff;
+    text-shadow: 0 5px 10px rgb(21, 29, 29);
+    font-size: 20px;
+    padding: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.services .all-services-div {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 20px;
+    text-align: center;
+
+}
+
+.services .service-box .image-area :hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    transform: scale(1.02);
+}
+
+.service-box {
+    margin: 20px;
+
+}
+
+.service-box h2 {
+    font-family: "Archivo", sans-serif;
+    font-size: 19px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.service-box p {
+    font-family: "Archivo", sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.image-area img {
+    width: 250px;
+    height: 250px;
+
+}
+
+.foot-section {
+    background-color: black;
+    width: 100%;
+    /* height: 70px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+.foot-section .footcopy {
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    margin-right: auto;
+}
+
+.footsocial-icon a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 12px;
+
+}
+
+.footsocial-icon a i {
+    /* color: rgb(107, 45, 45); */
+    color: black;
+    font-size: 1em;
+
+}
+
+.footsocial-icon a:hover {
+    background-color: black;
+    transition: 0.5s;
+}
+
+.footsocial-icon a:hover i {
+    color: #fff;
+    transition: 0.5s;
+}
